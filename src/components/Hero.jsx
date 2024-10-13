@@ -19,7 +19,9 @@ export default function Hero() {
                     In the spirit of balance,
                 </span> I fully embrace that cheat days exist, and naps are a vital part of recovery. Let's get healthy, let's get fit, and let’s keep it fun!
             </p>
-            <Button text={"Accept & Begin"} />
+            <Button func={() => {
+                window.location.href = '#generate'
+            }} text={"Accept & Begin"} />
         </div>
     )
 }

@@ -52,7 +52,7 @@ export default function Generator(props) {
   }
 
   return (
-    <SectionWrapper header={"generate your workout"} title={['It\'s', 'Huge', 'o\'clock']}>
+    <SectionWrapper id={'generate'} header={"generate your workout"} title={['It\'s', 'Huge', 'o\'clock']}>
 
       <Header index={'01'} title={'Pick your poison'}
         description={"Select your workout that you wish to endure."} />
